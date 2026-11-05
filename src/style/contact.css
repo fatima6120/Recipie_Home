@@ -1,15 +1,22 @@
 .contact {
   width: 100%;
-  height: 90vh;
+  min-height: 85vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .contact .leftSide {
-  height: 100%;
-  flex: 50%;
+  width: 40%;
+  height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #693c3040;
 }
 
 .contact .rightSide {
@@ -78,4 +85,46 @@ form button {
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  .contact .leftSide {
+    flex: none;
+    width: 100%;
+    height: 250px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .contact .rightSide {
+    flex: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact .rightSide h1 {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact form {
+    padding: 15px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }

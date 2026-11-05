@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/MainDish.css";
 import Card from "../components/Cards";
 import falafel from "../assets/falafel.jpeg";
@@ -7,6 +7,7 @@ import lhme from "../assets/lhme.jpeg";
 import pasta from "../assets/Pasta.jpg";
 
 const MainDishes = () => {
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
   const cardData = [
     {
       title: "Falafel",

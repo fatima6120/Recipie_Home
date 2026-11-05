@@ -30,9 +30,11 @@ const MainDishes = () => {
     },
   ];
   return (
-    <div className="MainWlcm">
-      <h2> It's All about The Main Dish!</h2>
-      <p>A recipe Full of Love</p>
+    <>
+      <div className="MainWlcm">
+        <h2> It's All about The Main Dish!</h2>
+        <p>A recipe Full of Love</p>
+      </div>
       <div className="categories-cards">
         {cardData.map((data, index) => (
           <Card
@@ -43,7 +45,10 @@ const MainDishes = () => {
           ></Card>
         ))}
       </div>
-    </div>
+      <div className="soon">
+        <h3>More recipies coming soon..</h3>
+      </div>
+    </>
   );
 };
 

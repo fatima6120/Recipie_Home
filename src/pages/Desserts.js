@@ -46,6 +46,9 @@ const Desserts = () => {
           ></Card>
         ))}
       </div>
+      <div className="soon">
+        <h3>More recipies coming soon..</h3>
+      </div>
     </>
   );
 };

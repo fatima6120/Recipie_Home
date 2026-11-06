@@ -31,8 +31,11 @@ const Desserts = () => {
     },
   ];
   return (
-
+    <div className="MainWlcm">
+      <h2> Ready for sweeetness overdose?</h2>
+      <p>A recipe Full of Love .. and a bit of sugar! </p>
+    </div>
   );
 };
 
-export default Desserts;;
+export default Desserts;

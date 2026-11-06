@@ -31,10 +31,25 @@ const Smoothies = () => {
     },
   ];
   return (
-    <div className="SmoWlcm">
-      <h2> Refreshing and addicting ? .. Yes!</h2>
-      <p> Refreshing and eye pleasing </p>
-    </div>
+    <>
+      <div className="SmoWlcm">
+        <h2> Refreshing and addicting ? .. Yes!</h2>
+        <p> Refreshing and eye pleasing </p>
+      </div>
+      <div className="categories-cards">
+        {cardData.map((data, index) => (
+          <Card
+            key={index}
+            title={data.title}
+            description={data.description}
+            image={data.image}
+          ></Card>
+        ))}
+      </div>
+      <div className="soon">
+        <h3>More recipies coming soon..</h3>
+      </div>
+    </>
   );
 };
 

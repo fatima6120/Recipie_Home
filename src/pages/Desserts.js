@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../style/Desserts.css";
 import Card from "../components/Cards";
 import rolls from "../assets/roll.jpg";
 import eclair from "../assets/Eclair.jpg";
@@ -31,10 +31,22 @@ const Desserts = () => {
     },
   ];
   return (
-    <div className="MainWlcm">
-      <h2> Ready for sweeetness overdose?</h2>
-      <p>A recipe Full of Love .. and a bit of sugar! </p>
-    </div>
+    <>
+      <div className="DesWlcm">
+        <h2> Ready for sweeetness overdose?</h2>
+        <p>A recipe Full of Love .. and a bit of sugar! </p>
+      </div>
+      <div className="categories-cards">
+        {cardData.map((data, index) => (
+          <Card
+            key={index}
+            title={data.title}
+            description={data.description}
+            image={data.image}
+          ></Card>
+        ))}
+      </div>
+    </>
   );
 };
 

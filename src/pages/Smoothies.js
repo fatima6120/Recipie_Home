@@ -31,8 +31,9 @@ const Smoothies = () => {
     },
   ];
   return (
-    <div>
-      <h2> Home Of recipies</h2>
+    <div className="SmoWlcm">
+      <h2> Refreshing and addicting ? .. Yes!</h2>
+      <p> Refreshing and eye pleasing </p>
     </div>
   );
 };

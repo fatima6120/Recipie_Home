@@ -34,16 +34,16 @@ Setup Instructions:
 Screenshots of the UI
 
 Home Page:
-![alt text](image.png)
+![Home Page](screenshots/home.png)
 
 Main Dish Page :
-![alt text](image-1.png)
+![Main-Dishes Page](screenshots/main.png)
 
 Desserts:
-![alt text](image-2.png)
+![Desserts Page](screenshots/desserts.png)
 
 Smoothies:
-![alt text](image-3.png)
+![Smoothies Page](screenshots/smoothies.png)
 
 Contact Us :
-![alt text](image-4.png)
+![Contact Page](screenshots/contact.png)

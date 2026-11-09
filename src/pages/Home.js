@@ -27,6 +27,9 @@ const Home = () => {
       link: "/Smoothies",
     },
   ];
+  const search = (e) => {
+    console.log(e.target.value);
+  };
   return (
     <div className="home">
       <div className="imageContainer">

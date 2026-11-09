@@ -1,6 +1,6 @@
 Project Description:
 
-Recipie Home is a responsive recipe website developed using React.js for the CSCI426 Advanced Web Programming course.
+Recipe Home is a responsive recipe website developed using React.js for the CSCI426 Advanced Web Programming course.
 The website allows users to explore recipes divided into three categories: Main Dishes, Desserts, and Smoothies.
 
 The website includes five pages:

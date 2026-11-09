@@ -47,7 +47,7 @@ const MainDishes = () => {
         ))}
       </div>
       <div className="soon">
-        <h3>More recipies coming soon..</h3>
+        <h3>More recipes coming soon..</h3>
       </div>
     </>
   );

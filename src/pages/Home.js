@@ -34,7 +34,7 @@ const Home = () => {
     <div className="home">
       <div className="imageContainer">
         <img src={welcome} alt="welcome" className="food" />
-        <h3 className="titlee">Welcome to Recipies Home!</h3>
+        <h3 className="titlee">Welcome to Recipes Home!</h3>
         <p className="desc">Tasty food are one click away!</p>
       </div>
 

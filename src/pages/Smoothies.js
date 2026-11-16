@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../style/Smoothies.css";
 import Card from "../components/Cards";
 import banana from "../assets/banana.jpeg";
@@ -7,7 +6,6 @@ import berries from "../assets/berry.jpg";
 import tropical from "../assets/tropical.jpeg";
 
 const Smoothies = () => {
-  const [selectedRecipe, setSelectedRecipe] = useState(null);
   const cardData = [
     {
       title: "Banana Vanilla",

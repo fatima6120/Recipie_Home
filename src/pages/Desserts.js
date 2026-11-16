@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../style/Desserts.css";
 import Card from "../components/Cards";
 import rolls from "../assets/roll.jpg";
@@ -7,7 +6,6 @@ import custard from "../assets/custard.jpeg";
 import cheese from "../assets/cheesecake.jpg";
 
 const Desserts = () => {
-  const [selectedRecipe, setSelectedRecipe] = useState(null);
   const cardData = [
     {
       title: "Cinammon Rolls",
